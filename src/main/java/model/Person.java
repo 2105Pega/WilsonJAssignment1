@@ -36,4 +36,13 @@ private Skills intro;
   public void setIntro(Skills intro) {
     this.intro = intro;
   }
+
+  @Override
+  public String toString(){
+    return "\n\t"+this.getName() +
+      " has being doing a great job, so far no complaints.If I can use one word to describe him it would be \""
+      + this.getIntro().getWord()
+      + "\".\n\n Although, I haven't seen it I've heard is speciality is something like \""+ this.getIntro().getSpeciality()+"!\".";
+  }
+
 }
