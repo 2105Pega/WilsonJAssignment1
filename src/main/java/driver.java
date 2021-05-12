@@ -10,7 +10,7 @@ public class driver {
     Matt.setIntro(skills);
 
     System.out.println(Matt.getName() +
-      "has being doing a great job so no complaints.\n If I can use one word to describe him it would be "
+      " has being doing a great job, so far no complaints.\n If I can use one word to describe him it would be "
       + Matt.getIntro().getWord()
     + ". Although I haven't seen it I've heard is speciality is something like "+ Matt.getIntro().getSpeciality()+"!");
   }
